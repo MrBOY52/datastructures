@@ -11,7 +11,7 @@ typedef struct node node;
 
 struct student{
 	int no;
-	char name[50];
+	char name[20];
 	int age;
 	struct student* next;
 };
